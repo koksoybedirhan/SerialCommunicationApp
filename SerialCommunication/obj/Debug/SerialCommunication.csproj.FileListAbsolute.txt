@@ -1,0 +1,12 @@
+C:\Users\Lenovo\source\repos\SerialCommunication\SerialCommunication\bin\Debug\SerialCommunication.exe.config
+C:\Users\Lenovo\source\repos\SerialCommunication\SerialCommunication\bin\Debug\SerialCommunication.exe
+C:\Users\Lenovo\source\repos\SerialCommunication\SerialCommunication\bin\Debug\SerialCommunication.pdb
+C:\Users\Lenovo\source\repos\SerialCommunication\SerialCommunication\obj\Debug\SerialCommunication.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\SerialCommunication\SerialCommunication\obj\Debug\SerialCommunication.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\source\repos\SerialCommunication\SerialCommunication\obj\Debug\SerialCommunication.Form1.resources
+C:\Users\Lenovo\source\repos\SerialCommunication\SerialCommunication\obj\Debug\SerialCommunication.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\SerialCommunication\SerialCommunication\obj\Debug\SerialCommunication.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\SerialCommunication\SerialCommunication\obj\Debug\SerialCommunication.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\SerialCommunication\SerialCommunication\obj\Debug\SerialCommunication.exe
+C:\Users\Lenovo\source\repos\SerialCommunication\SerialCommunication\obj\Debug\SerialCommunication.pdb
+C:\Users\Lenovo\source\repos\SerialCommunication\SerialCommunication\obj\Debug\SerialCommunication.csproj.ResolveComReference.cache
