@@ -253,10 +253,12 @@ namespace SerialCommunication
             labelDATAINLENGHT.Text = string.Format("{0:00}", dataInLenght);
             if (checkBoxALWAYSUPDATE.Checked)
             {
+                textBoxDATAIN.Text = (DateTime.Now.ToString("MM:dd:hh:mm:ss:"));
                 textBoxDATAIN.Text = dataIn;
             }
             else
             {
+                textBoxDATAIN.Text += (DateTime.Now.ToString("MM:dd:hh:mm:ss:"));
                 textBoxDATAIN.Text += dataIn;
             }
 
@@ -265,10 +267,12 @@ namespace SerialCommunication
                 objStreamWriter = new StreamWriter(pathFile, state_AppendText);
                 if (toolStripComboBox_WriteLineOrWrite.Text == "Write Line")
                 {
+                    objStreamWriter.Write(DateTime.Now.ToString("MM:dd:hh:mm:ss:"));
                     objStreamWriter.WriteLine(dataIn);
                 }
                 else
                 {
+                    objStreamWriter.Write(DateTime.Now.ToString("MM:dd:hh:mm:ss:"));
                     objStreamWriter.Write(dataIn + " ");
                 }
                 objStreamWriter.Close();
@@ -316,11 +320,6 @@ namespace SerialCommunication
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Created by Bedirhan", "Creator", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
-        private void textBoxDATAIN_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void toolStripComboBox_AppendOrOverwriteText_DropDownClosed(object sender, EventArgs e)

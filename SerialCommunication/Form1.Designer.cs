@@ -566,7 +566,6 @@
             this.textBoxDATAIN.Size = new System.Drawing.Size(346, 206);
             this.textBoxDATAIN.TabIndex = 4;
             this.textBoxDATAIN.WordWrap = false;
-            this.textBoxDATAIN.TextChanged += new System.EventHandler(this.textBoxDATAIN_TextChanged);
             // 
             // menuStrip1
             // 
